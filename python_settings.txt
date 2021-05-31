@@ -1,0 +1,48 @@
+{
+    "editor.formatOnSave": true,
+    "debug.console.fontFamily": "Source Code Pro",
+    "debug.console.fontSize": 16,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontWeight": "500",
+    "editor.fontSize": 16,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.defaultProfile.windows": "Windows Powershell",
+    "workbench.iconTheme": "vscode-icons",
+    "prettier.singleQuote": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "workbench.colorTheme": "Predawn",
+    "explorer.confirmDelete": false,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "git.autofetch": true
+}
